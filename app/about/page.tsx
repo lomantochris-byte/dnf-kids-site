@@ -4,13 +4,13 @@ export default function About() {
       <h1>About DNF KIDS</h1>
 
       <p style={{ marginTop: "20px", maxWidth: "700px" }}>
-        DNF KIDS is a nonprofit organization dedicated to protecting children
-        through advocacy, support, and structured referral.
+        DNF KIDS is a 501(c)(3) registered nonprofit organization dedicated to protecting children
+        through advocacy, support, and stopping child predators.
       </p>
 
       <p style={{ marginTop: "20px", maxWidth: "700px" }}>
-        We do not conduct investigations. We support lawful reporting and ensure
-        information reaches the appropriate authorities.
+        We do not conduct criminal investigations. We DO support law enforcment and prosecutors with Tools, Resources and Information necessary to capture chlid predators.
+        We DO provide advocacy, assistance and justice for the Child Victims.
       </p>
     </main>
   );
