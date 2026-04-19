@@ -21,10 +21,10 @@ export default function RootLayout({
           background: "#0f172a",
           borderBottom: "1px solid #1e293b"
         }}>
-         <img 
-  src="/logo.png" 
-  alt="DNF Kids Logo" 
-  style={{ height: "50px" }} 
+     <img
+  src="/Logo.png"
+  alt="DNF Kids Logo"
+  style={{ height: "50px" }}
 />
 
           <div style={{ display: "flex", gap: "20px" }}>
