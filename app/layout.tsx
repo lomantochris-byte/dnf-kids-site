@@ -1,8 +1,6 @@
-import React from "react";
-
 export const metadata = {
   title: "DNF KIDS",
-  description: "Protecting children through advocacy, support, and trusted referral.",
+  description: "Protect Children. Zero Exceptions.",
 };
 
 export default function RootLayout({
@@ -12,7 +10,45 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0, fontFamily: "Arial, sans-serif", background: "#0b1220", color: "white" }}>
+        
+        {/* NAVBAR */}
+        <nav style={{
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "20px 40px",
+          background: "#0f172a",
+          borderBottom: "1px solid #1e293b"
+        }}>
+          <div style={{ fontWeight: "bold", letterSpacing: "2px" }}>
+            DNF KIDS
+          </div>
+
+          <div style={{ display: "flex", gap: "20px" }}>
+            <a href="/" style={{ color: "white" }}>Home</a>
+            <a href="/about" style={{ color: "white" }}>About</a>
+            <a href="/report" style={{ color: "white" }}>Report</a>
+            <a href="/donate" style={{ color: "white" }}>Donate</a>
+            <a href="/contact" style={{ color: "white" }}>Contact</a>
+          </div>
+        </nav>
+
+        {children}
+
+        {/* FOOTER */}
+        <footer style={{
+          marginTop: "60px",
+          padding: "40px",
+          background: "#020617",
+          borderTop: "1px solid #1e293b"
+        }}>
+          <p>DNF KIDS — Protect. Support. Refer.</p>
+          <p style={{ fontSize: "12px", opacity: 0.6 }}>
+            Not a law enforcement agency. If a child is in danger, call 911.
+          </p>
+        </footer>
+
+      </body>
     </html>
   );
 }
