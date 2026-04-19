@@ -1,7 +1,7 @@
 import Image from "next/image";
 export const metadata = {
   title: "DNF KIDS",
-  description: "Protect Children. Zero Exceptions.",
+  description: "It's Simple. Protect Children. Zero Exceptions.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
      <img
   src="/Logo.png"
   alt="DNF Kids Logo"
-  style={{ height: "42px" }}
+  style={{ height: "40px" }}
 />
 
           <div style={{ display: "flex", gap: "20px" }}>
