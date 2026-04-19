@@ -1,3 +1,5 @@
+import React from "react";
+
 export const metadata = {
   title: "DNF KIDS",
   description: "Protecting children through advocacy, support, and trusted referral.",
