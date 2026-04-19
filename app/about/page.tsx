@@ -9,7 +9,7 @@ export default function About() {
       </p>
 
       <p style={{ marginTop: "20px", maxWidth: "700px" }}>
-        We provide advocacy, assistance and justice for Child Sex Abuse Victims. We accomplish this through our extensive network of specialized care providers, our research into the very best therapeutic practices and through our support for law enforcment and prosecutors by providing the Tools, Resources and Information necessary to capture chlid predators.
+        We provide advocacy, assistance and justice for Child Sex Abuse Victims. We accomplish this through our extensive network of specialized care providers, our research into the very best therapeutic practices available and through our support for law enforcment and prosecutors by providing the Tools, Resources and Information necessary to capture chlid predators.
         
       </p>
     </main>
