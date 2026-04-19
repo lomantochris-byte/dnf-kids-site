@@ -13,7 +13,7 @@ export default function Home() {
         {/* LEFT SIDE (TEXT) */}
         <div style={{ maxWidth: "600px" }}>
           <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
-            Protect Children.<br />Zero Exceptions.
+            Our Mission is Simple.<br />Protect Children.<br />Zero Exceptions.
           </h1>
 
           <p style={{ fontSize: "18px", opacity: 0.8 }}>
@@ -39,7 +39,8 @@ export default function Home() {
           style={{
             width: "350px",
             maxWidth: "100%",
-            borderRadius: "10px"
+            borderRadius: "10px",
+            boxShadow: "0 0 40px rgba(255, 204, 0, 0.3)"
           }}
         />
 
